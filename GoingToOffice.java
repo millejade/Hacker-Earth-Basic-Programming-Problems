@@ -35,24 +35,6 @@ public class Main {
 	        
 	        System.out.println(onlineTotalCost);
 	        System.out.println(classicTotalCost);
-
-	        /*
-	        public float onlineCost() {
-	            onlineTotalCost = (float) (onlineCost + (distance - onlineFirst) * onlineDistKM);
-	            return onlineTotalCost;
-	        }
-	   
-	        public float classicCost() {
-	            classicTotalCost = (float) (classicBaseFare + (distance/classicSpeed) * classicMin + (distance * classicDistKM));
-	            return classicTotalCost;
-	        }
-
-	        if((onlineCost()==classicCost()) || (onlineCost() > classicCost())){
-	            System.out.println("Online Taxi");
-	        }else if(classicCost() > onlineCost()){
-	            System.out.println("Classic Taxi");
-	        }
-	        */
 	        
 	        onlineTotalCost = onlineCost + (distance - onlineFirst) * onlineDistKM;
 	        classicTotalCost = classicBaseFare + (distance/classicSpeed) * classicMin + (distance * classicDistKM);
