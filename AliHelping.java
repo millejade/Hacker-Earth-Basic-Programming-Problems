@@ -20,12 +20,10 @@ public class Ali {
 				
 					if(i!=7) {
 						if((input[i] + input[i-1])%2 != 0) break;
-						//else continue;
 					}
 				
 				}else if(i==2){
 					if(input[2] == 'A' || input[2] == 'E' || input[2] == 'I' || input[2] == 'O' || input[2] == 'U' || input[2] == 'Y') break;
-					//else continue;
 					}
 
 		}
